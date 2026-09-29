@@ -1,5 +1,16 @@
-.testing {
+.about-section {
     background-color: red;
     width: 100vw;
-    height: 10vh;
+    height: 100vh;
+    display: flex;
+}
+
+.about-left {
+    background-color: purple;
+    width: 50%;
+}
+
+.about-right {
+    background-color: blue;
+    width: 50%;
 }
