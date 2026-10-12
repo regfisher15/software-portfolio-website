@@ -1,11 +1,11 @@
 import './Home.css'
 // import GradientText from "../animations/GradientText.jsx";
-import GradientText from '../Animations/GradientText';
+import GradientText from '../../Animations/GradientText';
 
 const Home = () => {
     return (
-        <div className="about-section">
-            <div className="about-left">
+        <div className="home-section">
+            <div className="home-left">
                 <h1>
                     <GradientText>
                         Reggie Fisher Jr.
@@ -53,8 +53,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="about-right">
-                <h1>About Right</h1>
+            <div className="home-right">
                 <img src="/computer-animation.svg" alt="computer animation" />
             </div>
         </div>

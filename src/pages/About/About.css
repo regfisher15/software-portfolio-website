@@ -1,0 +1,60 @@
+/* .about-page {
+  width: 100%;
+  padding: 2rem 5vw;
+} */
+
+.about-title {
+  font-size: clamp(2rem, 4vw, 4rem);
+  margin: 0 0 2rem;
+  text-align: center;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.about-left {
+    background-color: red;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-pic {
+    background-color: blue;
+    width: 30vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.about-right {
+    /* background-color:blueviolet; */
+    width: 50vw;
+    height: 100vh;
+}
+
+.right-content-container {
+    /* background-color:brown; */
+    height: 80vh;
+    /* margin-top: 10%; */
+    padding: 10%;
+}
+
+.right-content-container p {
+    font-size: clamp(0.5rem, 1.5vw, 2.5rem);
+}
+
+.info-fields {
+    /* background-color:aqua; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}

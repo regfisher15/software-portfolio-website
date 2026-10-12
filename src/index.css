@@ -12,4 +12,6 @@ body {
 
 body {
   min-width: 320px;
+  background-color: rgb(10, 19, 75);
+  color: white;
 }
