@@ -16,7 +16,7 @@
 }
 
 .about-left {
-    background-color: red;
+    /* background-color: red; */
     width: 50%;
     height: 100vh;
     display: flex;
@@ -35,6 +35,13 @@
     border-radius: 10px;
 }
 
+.profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
 .about-right {
     /* background-color:blueviolet; */
     width: 50vw;
@@ -44,7 +51,6 @@
 .right-content-container {
     /* background-color:brown; */
     height: 80vh;
-    /* margin-top: 10%; */
     padding: 10%;
 }
 
