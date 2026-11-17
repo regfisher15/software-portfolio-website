@@ -1,0 +1,17 @@
+.contact-page {
+  width: 100%;
+  padding: 2rem 5vw;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: clamp(2rem, 4vw, 4rem);
+  margin-bottom: 1rem;
+}
+
+.contact-description {
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
